@@ -6,7 +6,7 @@ require 'neuroprok/gem/version'
 Gem::Specification.new do |spec|
   spec.name          = "neuroprok"
   spec.version       = Neuroprok::VERSION
-  spec.authors       = ["sheff3rd", "maxsilver"]
+  spec.authors       = ["sheff3rd", "maximsilver"]
   spec.email         = ["thedoctorwhoovesmail@gmail.com"]
 
   spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
