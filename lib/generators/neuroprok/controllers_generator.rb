@@ -10,7 +10,7 @@ module Neuroprok
         Use -c to specify which controller you want to overwrite.
         If you do no specify a controller, all controllers will be created.
         For example:
-          rails generate devise:controllers users -c=projects
+          rails generate neuroprok:controllers users -c=projects
         This will create a controller class at app/controllers/users/projects_controller.rb like this:
           class Users::ProjectsController < Neuroprok::ProkectsController
             content...

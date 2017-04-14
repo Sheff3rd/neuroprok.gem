@@ -1,5 +1,6 @@
 require "neuroprok/version"
 
 module Neuroprok
-  #TO DO
+  mattr_accessor :parent_controller
+  @@parent_controller = "ApplicationController"
 end

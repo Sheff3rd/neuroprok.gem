@@ -1,7 +1,7 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'neuroprok/gem/version'
+require 'neuroprok/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "neuroprok"
@@ -9,9 +9,9 @@ Gem::Specification.new do |spec|
   spec.authors       = ["sheff3rd", "maximsilver"]
   spec.email         = ["thedoctorwhoovesmail@gmail.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{Neural network for deanonymizing code.}
+  spec.description   = %q{Creating webhooks for commits and training the model on ruby files.}
+  spec.homepage      = "https://github.com/Sheff3rd/neuroprok.gem"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
